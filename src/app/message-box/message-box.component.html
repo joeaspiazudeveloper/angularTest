@@ -1,0 +1,8 @@
+<div class="message-container" #elRef
+    [ngClass]="{'banner': parentClassName === 'banner', 'popup' : parentClassName === 'popup',
+         'warning': class === 'warning', 'error': class === 'error'
+     }"
+    
+>
+    <p>{{ message }}</p>
+</div>

@@ -1,0 +1,22 @@
+.message-container {
+    background-color: gray;
+    padding: 10px;
+}
+
+.banner {
+    text-align: center;
+    width: 100%;
+}
+
+.popup {
+    text-align: left;
+    width: 80%;
+}
+
+.warning {
+    background-color: yellow;
+}
+
+.error {
+    background-color: red;
+}
